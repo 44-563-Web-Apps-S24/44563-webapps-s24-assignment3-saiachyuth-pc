@@ -48,18 +48,11 @@
             <h3>Code Fencing</h3>
             <p>This is a basic overview of using the EventEmitter in Node.js. You can explore additional methods and features provided by the EventEmitter class based on your application needs.</p>
             <pre>
-                const myEmitter = new EventEmitter();
-
-                function c1() {
-                    console.log('an event occurred!');
-                }
-                
-                function c2() {
-                    console.log('yet another event occurred!');
-                }
-                
-                myEmitter.on('eventOne', c1); // Register for eventOne
-                myEmitter.on('eventOne', c2); // Register for eventOne 
+                Promise.all([ promise_1, promise_2 ]).then((values) => {
+                    // all input Promises resolved
+                }).catch((reason) => {
+                    // one of input Promises rejected
+                }); 
          </pre>
         <p>Source: <a href="https://code.pieces.app/collections/javascript"> Java code Source</a></p>
     </body>
